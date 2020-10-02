@@ -5,7 +5,7 @@ curl -sLo manifest-tool https://github.com/estesp/manifest-tool/releases/downloa
 chmod +x manifest-tool
 
 TAG=${SOURCE_BRANCH}
-if [[ "${SOURCE_BRANCH}" == "master" ]]; then
+if [[ "${SOURCE_BRANCH}" == "main" ]]; then
   TAG=latest
 fi
 
